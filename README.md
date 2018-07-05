@@ -23,8 +23,9 @@ Objectif de l'exercice : Réaliser une todo app.
 
 ### Technos :
 
-- Front :  React/Angular/Vue/ExtJS
+- Front :  React ou Angular ou Vue ou ExtJS
 - Back : NodeJS/Express
+- Il est permis d'utiliser d'autres modules en supplément.
 
 ### Rendu :
 
