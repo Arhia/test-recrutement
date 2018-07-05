@@ -1,6 +1,7 @@
 ## Test de recrutement Arhia
 
-Objectif de l'exercice : Réaliser une todo app.
+Objectif de l'exercice : Réaliser une todo app basique.
+Remarque : il n'est pas demandé de gérer le login de l'utilisateur.
 
 ### Specs :
 
@@ -17,7 +18,7 @@ Objectif de l'exercice : Réaliser une todo app.
 
 ### Back-end
 
-- 1 - Une route permet de créer une tâche de manière aléatoire. La description de la tâche sera générée de cette façon : piocher une action dans une liste de verbes d'actions , piocher un objet aléatoire une liste d'obhets et les concaténer pour former une phrase qui sera utiliser comme description de la tâche
+- 1 - Une route permet de créer une tâche de manière aléatoire. La description de la tâche sera générée de cette façon : piocher une action dans une liste de verbes d'actions , piocher un objet aléatoire une liste d'objets et les concaténer pour former une phrase qui sera utilisée comme description de la tâche
 - 2 - Des routes permettent de créer, supprimer, modifier, lister les tâches
 - 3 - Il n'y a pas de base de données, les données sont uniquement gérées dans un tableau côté serveur.
 
