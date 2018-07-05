@@ -14,7 +14,7 @@ Objectif de l'exercice : Réaliser une todo app.
 
 ### Infos supp :
 
-- Lorsque je coche une tâche, elle n'est plus affichée à l'utilisateur (sauf si on affiche les tâches effectuées avec le filtre)
+- Lorsque l'utilisateur coche une tâche, elle ne doit plus affichée à l'utilisateur (sauf si on affiche les tâches effectuées avec le filtre)
 - Les tâches sont triées par ordre d'insertion
 - Les données doivent être stockées coté browser uniquement (il n'y a pas de back)
 
@@ -24,10 +24,15 @@ Objectif de l'exercice : Réaliser une todo app.
 - Back : n/a
 
 ### Rendu :
+s
+- Le design et les couleurs sont libres.
+- Sur un repos Github
+- README.md (les choses nécessaires à une reprise de projet, setup dépendance etc...)
 
-   -> La todo app sera a minima responsive. Le design et les couleurs sont libres.
-   -> Sur un repos Github
-   -> README.md (les choses nécessaires à une reprise de projet, setup dépendance etc...)
+### Bonus
+
+- Si l'application est responsive, c'est un +
 
 ### Exemple de TODO app "basique" :
-   -> http://todolistme.net/
+
+-> http://todolistme.net/
