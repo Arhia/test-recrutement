@@ -4,27 +4,30 @@ Objectif de l'exercice : Réaliser une todo app.
 
 ### Specs :
 
-  - 1 - Pouvoir ajouter une tâche
-  -  2 - Pouvoir indiquer qu'une tâche est faite (avec la date de réalisation) ou à faire
+#### Front-end
+
+  -  1 - Pouvoir ajouter une tâche
+  -  2 - Pouvoir indiquer qu'une tâche est faite (avec une checkbox) ou à faire
   -  3 - Pouvoir supprimer une tâche.
-  -  4 - Pouvoir modifier une tâche existant (en cliquant dessus, affiche une fenêtre modale correspondant à la spec 7).
-  -  5 - Filtre (checkbox) pour afficher les tâches effectuées ainsi que la date a laquelle elles ont été effectués.
-  -  6 - Créer une tâche de manière aléatoire via un bouton sur l'interface. La description de la tâche sera générée de cette façon : piocher une action dans la liste d'actions actions.json (déjà incluse dans le repo), un objet aléatoire dans objects.json (déjà incluse dans lerepo) et les concaténer pour former une phrase qui sera utiliser comme description de la tâche.
-  -  7 - Cliquer sur la description d'une tâche affiche une fenêtre modale contenant la description, l'état (fait/pas fait) (les modifs d'un todo sont faites dans cette box) ainsi qu'une photo de chat aléatoire (histoire de mettre un peu de gaieté dans cette TODO list) grâce a ce endpoint : http://aws.random.cat/meow
+  -  4 - Pouvoir modifier une tâche existante (en cliquant dessus, affiche une fenêtre modale correspondant à la spec 7).
+  -  5 - Pouvoir afficher la liste des tâches. Les tâches sont triées par : non effectuées en 1er, puis date de réalisation décroissante
+  -  6 - Pouvoir filtrer (checkbox) la liste des tâches pour afficher les tâches effectuées.
+  -  7 - Un bouton doit permettre de créer une tâche générée aléatoirement (voir spec 1 Backend)
+  -  8 - Cliquer sur la description d'une tâche affiche une fenêtre modale contenant la description, l'état (fait/pas fait) (les modifs d'un todo sont faites dans cette box) ainsi qu'une photo de chat aléatoire (histoire de mettre un peu de gaieté dans cette TODO list) grâce a ce endpoint : http://aws.random.cat/meow
 
-### Infos supp :
+### Back-end
 
-- Lorsque l'utilisateur coche une tâche, elle ne doit plus affichée à l'utilisateur (sauf si on affiche les tâches effectuées avec le filtre)
-- Les tâches sont triées par ordre d'insertion
-- Les données doivent être stockées coté browser uniquement (il n'y a pas de back)
+- 1 - Une route permet de créer une tâche de manière aléatoire. La description de la tâche sera générée de cette façon : piocher une action dans une liste de verbes d'actions , piocher un objet aléatoire une liste d'obhets et les concaténer pour former une phrase qui sera utiliser comme description de la tâche
+- 2 - Des routes permettent de créer, supprimer, modifier, lister les tâches
+- 3 - Il n'y a pas de base de données, les données sont uniquement gérées dans un tableau côté serveur.
 
 ### Technos :
 
-- Front :  React ou ExtJS
-- Back : n/a
+- Front :  React/Angular/Vue/ExtJS
+- Back : NodeJS/Express
 
 ### Rendu :
-s
+
 - Le design et les couleurs sont libres.
 - Sur un repos Github
 - README.md (les choses nécessaires à une reprise de projet, setup dépendance etc...)
