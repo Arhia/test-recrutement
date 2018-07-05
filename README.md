@@ -39,3 +39,9 @@ Objectif de l'exercice : Réaliser une todo app.
 ### Exemple de TODO app "basique" :
 
 -> http://todolistme.net/
+
+### Temps imparti
+
+- Junior : 48h. Le fait de ne pas avoir fini le projet n'est pas éliminatoire !
+
+- Senior : 12h
